@@ -13,12 +13,10 @@ body {
 /* banner styles */
 .banner {
     max-width: 1440px;
-    height: 652px;
+    height: 720px;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: space-between;
 }
 
 .banner-section-container{
@@ -28,7 +26,7 @@ body {
     left: 221px;
     right: 221px;
     top: 157px;
-    bottom: 4507px;
+    bottom: 45px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -72,4 +70,73 @@ body {
     padding: 21px 24px;
     border-radius: 8px;
     border: none;
+}
+
+/* main syles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-left: 148px;
+    margin-right: 152px;
+    padding: 80px 97px;
+}
+
+.section-container1{
+    margin-left: 292px;
+    margin-right: 296px;
+    position: static;
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-description{
+    width: 852px;
+    height: 52px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.section-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 99PX;
+    padding: 48px;
+}
+
+.sec-container2-content{
+    width: 477px;
+    height: 140px;
+}
+
+.sec-container2-title{
+    width: 390px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sec-container2-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
 }
