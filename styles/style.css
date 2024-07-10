@@ -18,6 +18,7 @@ body {
     padding: 12px 20px;
     margin-top: 20px;
 }
+
 /* banner styles */
 .banner {
     max-width: 1440px;
@@ -96,7 +97,7 @@ main section{
     margin-left: 292px;
     margin-right: 296px;
     position: static;
-    width: 852px;
+    width: 952px;
     height: 113px;
     display: flex;
     flex-direction: column;
