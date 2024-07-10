@@ -202,8 +202,8 @@ nav a {
 /* banner-2 styles */
 .banner-2{
     position: absolute;
-    width: 1140px;
-    height: 313px;
+    width: 1144px;
+    height: 430px;
     left: 150px;
     right: 150px;
     top: 3700px;
@@ -275,7 +275,7 @@ nav a {
 footer{
     width: 1440px;
     height: 100px;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-bottom: 50px;
     padding: 32px 120px;
 }
